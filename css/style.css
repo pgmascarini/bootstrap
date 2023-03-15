@@ -1,0 +1,167 @@
+body {
+    font-family: Raleway;
+    background-color: #eee;
+}
+
+label {
+    margin: 0 !important;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+textarea:focus,
+textarea:active,
+input:focus,
+input:active,
+button:focus,
+button:active,
+.btn:focus,
+.btn:active {
+    border: 1px solid #FF5733 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.bg-danger,
+.btn-danger {
+    background-color: #f44336 !important;
+}
+
+.text-danger {
+    color: #f44336 !important;
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.nav-item:hover {
+    background-color: #dae0e5 !important;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.btn,
+.card {
+    border: none;
+}
+
+.btn,
+.card,
+.form-control {
+    border-radius: 0;
+}
+
+.home {
+    background-image: url("../images/hotel.jpg");
+    min-height: 800px;
+    background-position: center;
+}
+
+.home .card {
+    margin: 14rem 2rem 0 2rem;
+}
+
+
+.btn-dark {
+    background-color: #000;
+}
+
+.btn-dark:hover,
+.btn-danger:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.offers {
+    opacity: 0.6;
+}
+
+.offers:hover {
+    opacity: 1;
+}
+
+.rooms .form-group,
+.padding-card,
+.our-hotels {
+    padding: 0 0.5rem;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.grayscale {
+    filter: grayscale(0.75);
+}
+
+.fa-info {
+    background-color: #FF5733;
+    padding: 0.5rem 1rem;
+}
+
+.title {
+    font-size: 1.8rem;
+}
+
+.footer i {
+    margin: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.footer i:hover {
+    color: #666;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: green;
+}
+
+.city-name {
+    color: #fff;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 1.5rem;
+}
+
+@media (max-width: 576px) {
+
+    .navbar-nav,
+    .nav-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-btn {
+        margin: 0 !important;
+    }
+
+    .home .card {
+        margin-top: 3rem;
+    }
+
+    .padding-card {
+        margin-bottom: 1rem;
+    }
+}
